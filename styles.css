@@ -1,0 +1,103 @@
+body{
+ 	background-color:#9CAF88;
+	color:#2F3R46;
+	font-family:Arial, sans-serif;
+	margin:0.5;
+	padding:25px;
+	line height:1.4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box; 
+}
+
+h1{
+	font-size:26px;
+	color:#44CCAC;
+}
+h2{
+	font-size:21px;
+	color:6060DD;
+}
+p{
+	font-size:16px;
+	font-weight:600;
+}
+.header-box{
+	background-color:#5F6F52;
+	margin:0;
+        padding:22px;
+        line height:1.4;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+	border-radius: 10px;
+}
+.content-box1{
+
+    background-color: #F4F7F2; 
+    width: 100%;
+    max-width: 340px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    text-align: left;
+}
+.content-box2{
+ background-color: #F4F7F2; 
+    width: 100%;
+    max-width: 768px;
+    padding: 32px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    text-align: left;
+}
+.top-section {
+  display: flex;
+  gap: 20px; 
+  align-items: stretch; 
+}
+
+.text-card {
+  flex: 1; 
+  
+}
+
+.side-image {
+  flex: 1; 
+  max-width: 4.top-section {
+  display: flex;
+  gap: 20px; /* Adjust spacing between the card and image */
+  align-items: stretch; /* Optional: keeps heights aligned */
+}
+
+.text-card {
+  flex: 1; 
+}
+
+.side-image {
+  flex: 1; 
+  max-width: 50%; 
+  object-fit: cover; 
+  border-radius: 12px; 
+}
+  max-height:430px; 
+  object-fit: cover;
+  border-radius: 12px;
+}
+.side-image-container {
+  flex: 1; 
+  margin: 0; 
+  display: flex;
+  flex-direction: column;
+}
+.image-caption {
+  font-size: 0.8rem;
+  color: 6060DD; 
+  margin-top: 6px; 
+  text-align: center; 
+  font-style: italic; 
+}
